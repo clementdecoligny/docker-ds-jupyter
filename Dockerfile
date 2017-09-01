@@ -12,7 +12,7 @@ RUN pip3 install --no-cache-dir --upgrade pip six
 
 # Install requirements (should be on a requirements.txt)
 RUN pip3 install --no-cache-dir numpy jupyter pandas \
-    scikit-learn seaborn matplotlib sympy rise
+    scikit-learn seaborn matplotlib sympy rise keras
 
 RUN jupyter-nbextension install rise --py --sys-prefix
 
